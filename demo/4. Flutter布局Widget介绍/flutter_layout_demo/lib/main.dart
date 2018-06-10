@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_layout_demo/single/Container.dart';
 import 'package:flutter_layout_demo/single/Padding.dart';
+import 'package:flutter_layout_demo/single/Align.dart';
 
 void main() => runApp(new MyApp());
 
@@ -48,36 +49,36 @@ class MyApp extends StatelessWidget {
       ),
       home: new MyHomePage(title: 'Flutter Demo Home Page'),
       routes: <String, WidgetBuilder>{
-        '/Container': (BuildContext context) => new LYContainer(),
-        '/Padding': (BuildContext context) => new LYPadding(),
+        '/Container': (_) => new LYContainer(),
+        '/Padding': (_) => new LYPadding(),
 
-        '/Center': (BuildContext context) => new LYPadding(),
-        '/Align': (BuildContext context) => new LYPadding(),
-        '/FittedBox': (BuildContext context) => new LYPadding(),
-        '/AspectRatio': (BuildContext context) => new LYPadding(),
-        '/ConstrainedBox': (BuildContext context) => new LYPadding(),
-        '/Baseline': (BuildContext context) => new LYPadding(),
-        '/FractionallySizedBox': (BuildContext context) => new LYPadding(),
-        '/IntrinsicHeight': (BuildContext context) => new LYPadding(),
-        '/IntrinsicWidth': (BuildContext context) => new LYPadding(),
-        '/LimitedBox': (BuildContext context) => new LYPadding(),
-        '/Offstage': (BuildContext context) => new LYPadding(),
-        '/OverflowBox': (BuildContext context) => new LYPadding(),
-        '/SizedBox': (BuildContext context) => new LYPadding(),
-        '/SizedOverflowBox': (BuildContext context) => new LYPadding(),
-        '/Transform': (BuildContext context) => new LYPadding(),
-        '/CustomSingleChildLayout': (BuildContext context) => new LYPadding(),
+        '/Center': (_) => new LYPadding(),
+        '/Align': (_) => new LYAlign(),
+        '/FittedBox': (_) => new LYPadding(),
+        '/AspectRatio': (_) => new LYPadding(),
+        '/ConstrainedBox': (_) => new LYPadding(),
+        '/Baseline': (_) => new LYPadding(),
+        '/FractionallySizedBox': (_) => new LYPadding(),
+        '/IntrinsicHeight': (_) => new LYPadding(),
+        '/IntrinsicWidth': (_) => new LYPadding(),
+        '/LimitedBox': (_) => new LYPadding(),
+        '/Offstage': (_) => new LYPadding(),
+        '/OverflowBox': (_) => new LYPadding(),
+        '/SizedBox': (_) => new LYPadding(),
+        '/SizedOverflowBox': (_) => new LYPadding(),
+        '/Transform': (_) => new LYPadding(),
+        '/CustomSingleChildLayout': (_) => new LYPadding(),
 
-        '/Row': (BuildContext context) => new LYPadding(),
-        '/Column': (BuildContext context) => new LYPadding(),
-        '/Stack': (BuildContext context) => new LYPadding(),
-        '/IndexedStack': (BuildContext context) => new LYPadding(),
-        '/Flow': (BuildContext context) => new LYPadding(),
-        '/Table': (BuildContext context) => new LYPadding(),
-        '/Wrap': (BuildContext context) => new LYPadding(),
-        '/ListBody': (BuildContext context) => new LYPadding(),
-        '/ListView': (BuildContext context) => new LYPadding(),
-        '/CustomMultiChildLayout': (BuildContext context) => new LYPadding(),
+        '/Row': (_) => new LYPadding(),
+        '/Column': (_) => new LYPadding(),
+        '/Stack': (_) => new LYPadding(),
+        '/IndexedStack': (_) => new LYPadding(),
+        '/Flow': (_) => new LYPadding(),
+        '/Table': (_) => new LYPadding(),
+        '/Wrap': (_) => new LYPadding(),
+        '/ListBody': (_) => new LYPadding(),
+        '/ListView': (_) => new LYPadding(),
+        '/CustomMultiChildLayout': (_) => new LYPadding(),
       },
     );
   }

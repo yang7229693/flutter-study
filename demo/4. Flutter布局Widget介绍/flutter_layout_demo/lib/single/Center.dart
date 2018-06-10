@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class LYPadding extends StatelessWidget {
-  const LYPadding();
+class LYCenter extends StatelessWidget {
+  const LYCenter();
 
   @override
   Widget build(BuildContext context) {
@@ -11,16 +11,15 @@ class LYPadding extends StatelessWidget {
         title: new Text("Padding"),
         leading: new BackButton(),
       ),
-      body: new LYPaddingContent(),
+      body: new LYCenterContent(),
     );
   }
 }
 
-class LYPaddingContent extends StatelessWidget {
+class LYCenterContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new Padding(
-      padding: const EdgeInsets.fromLTRB(20.0, 50.0, 40.0, 40.0),
+    return new Center(
       child: new Text("Padding"),
     );
   }
