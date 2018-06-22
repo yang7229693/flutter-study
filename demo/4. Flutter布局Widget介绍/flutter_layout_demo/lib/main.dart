@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_layout_demo/single/AspectRatio.dart';
+import 'package:flutter_layout_demo/single/Center.dart';
+import 'package:flutter_layout_demo/single/ConstrainedBox.dart';
 import 'package:flutter_layout_demo/single/Container.dart';
+import 'package:flutter_layout_demo/single/FittedBox.dart';
 import 'package:flutter_layout_demo/single/Padding.dart';
 import 'package:flutter_layout_demo/single/Align.dart';
 
@@ -51,21 +55,24 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         '/Container': (_) => new LYContainer(),
         '/Padding': (_) => new LYPadding(),
-
-        '/Center': (_) => new LYPadding(),
+        '/Center': (_) => new LYCenter(),
         '/Align': (_) => new LYAlign(),
-        '/FittedBox': (_) => new LYPadding(),
-        '/AspectRatio': (_) => new LYPadding(),
-        '/ConstrainedBox': (_) => new LYPadding(),
+        '/FittedBox': (_) => new LYFittedBox(),
+        '/AspectRatio': (_) => new LYAspectRatio(),
+        '/ConstrainedBox': (_) => new LYConstrainedBox(),
+
         '/Baseline': (_) => new LYPadding(),
         '/FractionallySizedBox': (_) => new LYPadding(),
         '/IntrinsicHeight': (_) => new LYPadding(),
+
         '/IntrinsicWidth': (_) => new LYPadding(),
         '/LimitedBox': (_) => new LYPadding(),
         '/Offstage': (_) => new LYPadding(),
+
         '/OverflowBox': (_) => new LYPadding(),
         '/SizedBox': (_) => new LYPadding(),
         '/SizedOverflowBox': (_) => new LYPadding(),
+
         '/Transform': (_) => new LYPadding(),
         '/CustomSingleChildLayout': (_) => new LYPadding(),
 

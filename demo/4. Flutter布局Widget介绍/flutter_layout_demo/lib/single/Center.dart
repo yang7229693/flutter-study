@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class LYCenter extends StatelessWidget {
   const LYCenter();
@@ -8,7 +7,7 @@ class LYCenter extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Padding"),
+        title: new Text("Center"),
         leading: new BackButton(),
       ),
       body: new LYCenterContent(),
@@ -20,7 +19,7 @@ class LYCenterContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Center(
-      child: new Text("Padding"),
+      child: new Text("Center"),
     );
   }
 }
