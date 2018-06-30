@@ -13,6 +13,7 @@
 4. [Flutter 布局（一）- Container详解](https://github.com/yang7229693/flutter-study/blob/master/post/4.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%80%EF%BC%89-%20Container%E8%AF%A6%E8%A7%A3.md)
 5. [Flutter 布局（二）- Padding、Align、Center详解](https://github.com/yang7229693/flutter-study/blob/master/post/5.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%BA%8C%EF%BC%89-%20Padding%E3%80%81Align%E3%80%81Center%E8%AF%A6%E8%A7%A3.md)
 6. [Flutter 布局（三）- FittedBox、AspectRatio、ConstrainedBox详解](https://github.com/yang7229693/flutter-study/blob/master/post/6.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%89%EF%BC%89-%20FittedBox%E3%80%81AspectRatio%E3%80%81ConstrainedBox%E8%AF%A6%E8%A7%A3.md)
+7. [现有项目中集成Flutter](https://github.com/yang7229693/flutter-study/blob/master/post/7.%20%E5%9C%A8%E7%8E%B0%E6%9C%89%E9%A1%B9%E7%9B%AE%E4%B8%AD%E6%B7%BB%E5%8A%A0Flutter.md)
 
 
 ## Demo
