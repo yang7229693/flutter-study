@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class LYRow extends StatelessWidget {
-  const LYRow();
+class LYColumn extends StatelessWidget {
+  const LYColumn();
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Row"),
+        title: new Text("Column"),
         leading: new BackButton(),
       ),
-      body: new LYRowContent(),
+      body: new LYColumnContent(),
     );
   }
 }
 
-class LYRowContent extends StatelessWidget {
+class LYColumnContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return new Column(
       children: <Widget>[
         Expanded(
           child: Container(
