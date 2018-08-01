@@ -1,8 +1,8 @@
 # flutter-study
 
-会持续更新Flutter学习过程中的总结，会在这里发布一些文章，后续也会上传一些demo。
+会持续更新Flutter学习过程中的总结，会在这里发布Flutter相关的文章。
 
-其中post里面包含发布的文章，使用markdown编写。欢迎star。
+其中post里面包含发布的文章，使用markdown编写，demo中则是文章中的例子工程。欢迎star。
 
 
 ## 文章
@@ -17,6 +17,7 @@
 8. [Flutter 布局（四）- Baseline、FractionallySizedBox、IntrinsicHeight、IntrinsicWidth详解](https://github.com/yang7229693/flutter-study/blob/master/post/8.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E5%9B%9B%EF%BC%89-%20Baseline%E3%80%81FractionallySizedBox%E3%80%81IntrinsicHeight%E3%80%81IntrinsicWidth%E8%AF%A6%E8%A7%A3.md)
 9. [Flutter 布局（五）- LimitedBox、Offstage、OverflowBox、SizedBox详解](https://github.com/yang7229693/flutter-study/blob/master/post/9.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%BA%94%EF%BC%89-%20LimitedBox%E3%80%81Offstage%E3%80%81OverflowBox%E3%80%81SizedBox%E8%AF%A6%E8%A7%A3.md)
 10. [Flutter 布局（六）- SizedOverflowBox、Transform、CustomSingleChildLayout详解](https://github.com/yang7229693/flutter-study/blob/master/post/10.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E5%85%AD%EF%BC%89-%20SizedOverflowBox%E3%80%81Transform%E3%80%81CustomSingleChildLayout%E8%AF%A6%E8%A7%A3.md)
+11. [Flutter 布局（七）- Row、Column详解](https://github.com/yang7229693/flutter-study/blob/master/post/11.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%83%EF%BC%89-%20Row%E3%80%81Column%E8%AF%A6%E8%A7%A3.md)
 
 
 ## Demo
