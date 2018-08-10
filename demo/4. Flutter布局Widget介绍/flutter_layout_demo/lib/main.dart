@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_layout_demo/multi/Column.dart';
+import 'package:flutter_layout_demo/multi/GridView.dart';
+import 'package:flutter_layout_demo/multi/IndexedStack.dart';
 import 'package:flutter_layout_demo/multi/Row.dart';
+import 'package:flutter_layout_demo/multi/Stack.dart';
 import 'package:flutter_layout_demo/single/AspectRatio.dart';
 import 'package:flutter_layout_demo/single/Baseline.dart';
 import 'package:flutter_layout_demo/single/Center.dart';
@@ -48,6 +51,7 @@ const List<String> multiLayoutWidgets = [
   "Column",
   "Stack",
   "IndexedStack",
+  "GridView",
   "Flow",
   "Table",
   "Wrap",
@@ -87,9 +91,10 @@ class MyApp extends StatelessWidget {
 
         '/Row': (_) => new LYRow(),
         '/Column': (_) => new LYColumn(),
+        '/Stack': (_) => new LYStack(),
+        '/IndexedStack': (_) => new LYIndexedStack(),
+        '/GridView': (_) => new LYGridView(),
 
-        '/Stack': (_) => new LYPadding(),
-        '/IndexedStack': (_) => new LYPadding(),
         '/Flow': (_) => new LYPadding(),
         '/Table': (_) => new LYPadding(),
         '/Wrap': (_) => new LYPadding(),
