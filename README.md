@@ -18,6 +18,7 @@
 9. [Flutter 布局（五）- LimitedBox、Offstage、OverflowBox、SizedBox详解](https://github.com/yang7229693/flutter-study/blob/master/post/9.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%BA%94%EF%BC%89-%20LimitedBox%E3%80%81Offstage%E3%80%81OverflowBox%E3%80%81SizedBox%E8%AF%A6%E8%A7%A3.md)
 10. [Flutter 布局（六）- SizedOverflowBox、Transform、CustomSingleChildLayout详解](https://github.com/yang7229693/flutter-study/blob/master/post/10.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E5%85%AD%EF%BC%89-%20SizedOverflowBox%E3%80%81Transform%E3%80%81CustomSingleChildLayout%E8%AF%A6%E8%A7%A3.md)
 11. [Flutter 布局（七）- Row、Column详解](https://github.com/yang7229693/flutter-study/blob/master/post/11.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%83%EF%BC%89-%20Row%E3%80%81Column%E8%AF%A6%E8%A7%A3.md)
+12. [Flutter 布局（八）- Stack、IndexedStack、GridView详解](https://github.com/yang7229693/flutter-study/blob/master/post/12.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E5%85%AB%EF%BC%89-%20Stack%E3%80%81IndexedStack%E3%80%81GridView%E8%AF%A6%E8%A7%A3.md)
 
 
 ## Demo
