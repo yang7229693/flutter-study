@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_layout_demo/multi/Column.dart';
+import 'package:flutter_layout_demo/multi/Flow.dart';
 import 'package:flutter_layout_demo/multi/GridView.dart';
 import 'package:flutter_layout_demo/multi/IndexedStack.dart';
 import 'package:flutter_layout_demo/multi/Row.dart';
 import 'package:flutter_layout_demo/multi/Stack.dart';
+import 'package:flutter_layout_demo/multi/Table.dart';
+import 'package:flutter_layout_demo/multi/Wrap.dart';
 import 'package:flutter_layout_demo/single/AspectRatio.dart';
 import 'package:flutter_layout_demo/single/Baseline.dart';
 import 'package:flutter_layout_demo/single/Center.dart';
@@ -94,10 +97,10 @@ class MyApp extends StatelessWidget {
         '/Stack': (_) => new LYStack(),
         '/IndexedStack': (_) => new LYIndexedStack(),
         '/GridView': (_) => new LYGridView(),
+        '/Flow': (_) => new LYFlow(),
+        '/Table': (_) => new LYTable(),
+        '/Wrap': (_) => new LYWrap(),
 
-        '/Flow': (_) => new LYPadding(),
-        '/Table': (_) => new LYPadding(),
-        '/Wrap': (_) => new LYPadding(),
         '/ListBody': (_) => new LYPadding(),
         '/ListView': (_) => new LYPadding(),
         '/CustomMultiChildLayout': (_) => new LYPadding(),
