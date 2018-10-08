@@ -23,6 +23,7 @@
 14. [Flutter 布局（十）- ListBody、ListView、CustomMultiChildLayout详解](https://github.com/yang7229693/flutter-study/blob/master/post/14.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E5%8D%81%EF%BC%89-%20ListBody%E3%80%81ListView%E3%80%81CustomMultiChildLayout%E8%AF%A6%E8%A7%A3.md)
 15. [Flutter 布局控件完结篇
 ](https://github.com/yang7229693/flutter-study/blob/master/post/15.%20Flutter%20%E5%B8%83%E5%B1%80%E6%8E%A7%E4%BB%B6%E5%AE%8C%E7%BB%93%E7%AF%87.md)
+16. [Flutter 动画详解（一）](https://github.com/yang7229693/flutter-study/blob/master/post/16.%20Flutter%20%E5%8A%A8%E7%94%BB%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%80%EF%BC%89.md)
 
 
 ## Demo
