@@ -31,7 +31,7 @@
 
 1. [Flutter 布局详解 Demo工程](https://github.com/yang7229693/flutter-study/tree/master/demo/3.%20Flutter%E5%B8%83%E5%B1%80)
 2. [Flutter布局系列 Demo工程](https://github.com/yang7229693/flutter-study/tree/master/demo/4.%20Flutter%E5%B8%83%E5%B1%80Widget%E4%BB%8B%E7%BB%8D/flutter_layout_demo)
-
+3. [WestlifeUsingFlutter西城男孩的FlutterDemoApp](https://github.com/renjingkai/WestlifeUsingFlutter)
 ## 其他
 
 [个人博客](http://whysodiao.com)
